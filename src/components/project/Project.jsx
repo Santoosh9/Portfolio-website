@@ -1,14 +1,14 @@
-import React from 'react';
+import React from 'react'
 
-const About = () => {
+const Project = () => {
   return (
     <section
-      id="about"
+      id="project"
       className=" w-full h-[800px] pb-20 flex border-b-[1px] border-b-black"
     >
-      about
+      Project
     </section>
   );
-};
+}
 
-export default About;
+export default Project
