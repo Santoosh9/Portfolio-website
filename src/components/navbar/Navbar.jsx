@@ -10,19 +10,19 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
-      <div>
-        <img className=" h-20 w-[90%] rounded-full" src={logo} alt="logo" />
+      <div className=' p-16'>
+        <img className=" h-20 w-[89%]  rounded-full mt-1 mb-2" src={logo} alt="logo" />
       </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
-          {navLinksdata.map(({ _id, title, link }) => (
+          {navLinksdata.map(({ _id, title, links }) => (
             <li
               className="text-base font-medium text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300"
               key={_id}
             >
               <Link
                 activeClass="active"
-                to={link}
+                to={links}
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -54,7 +54,7 @@ const Navbar = () => {
                     <Link
                       onClick={() => setShowMenu(false)}
                       activeClass="active"
-                      to={item.link}
+                      to={item.links}
                       spy={true}
                       smooth={true}
                       offset={-70}
