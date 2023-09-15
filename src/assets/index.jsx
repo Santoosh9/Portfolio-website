@@ -1,5 +1,8 @@
 import logo from './img/logo-s.jpg';
 import profile from './img/img222.png';
-import mern from './img/pngaaa.com-7365622.png';
-import quality from './img/quality_1212158.png';
-export { logo, profile, mern, quality };
+import ecommerce from './img/ecommerse.jpg';
+import recipes from './img/recipe.jpg';
+import shoes from './img/shose.jpg';
+import libary from './img/libary.jpg';
+import restromeal from './img/restromeal.jpg';
+export { logo, profile, ecommerce, recipes, shoes, libary, restromeal };
