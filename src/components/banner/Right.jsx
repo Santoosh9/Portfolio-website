@@ -3,9 +3,9 @@ import { profile } from '../../assets/index';
 
 const Right = () => {
   return (
-    <div className="w-full lgl:w-1/2 flex justify-center items-center relative  ">
+    <div className="w-full lgl:w-1/2 flex justify-center items-center relative md:">
       <img
-        className="w-[355px] h-[430px] lgl:w-[470px] lgl:h-[600px] z-10 hover:scale-110 transition-transform duration-500 cursor-pointer "
+        className="w-[355px] h-[430px] lgl:w-[470px] lgl:h-[600px] z-10"
         data-taos-offset="400"
         src={profile}
         alt="profile"

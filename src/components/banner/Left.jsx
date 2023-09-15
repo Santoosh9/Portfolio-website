@@ -7,7 +7,7 @@ const Left = () => {
   const [text] = useTypewriter({
     words: ['Web Developer', 'Frontend Developer', 'Full Stack Developer'],
     loop: true,
-    typeSpeed: 20,
+    typeSpeed: 15,
     deleteSpeed: 10,
     delaySpeed: 2000,
   });
@@ -27,7 +27,7 @@ const Left = () => {
             cursorColor="#ff014f"
           />
         </h3>
-        <p className="text-base font-bodyFont leading-6 tracking-wide">
+        <p className="text-base font-bodyFont leading-6 tracking-wide flex flex-nowrap">
           I target to have a successful career as a software engineer. Being
           extremely curious and interested in front-end, web programming. MERN
           Stack, too.
