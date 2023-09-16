@@ -12,7 +12,7 @@ import ProjectsCard, { ProjectsCard2 } from './ProjectsCard';
 const Project = () => {
   return (
     <section
-      id="projects"
+      id="project"
       className="w-full py-20 border-b-[1px] border-b-black"
     >
       <div className="flex justify-center items-center text-center">
