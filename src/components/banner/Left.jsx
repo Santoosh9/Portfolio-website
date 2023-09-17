@@ -40,15 +40,21 @@ const Left = () => {
             Find me in
           </h2>
           <div className="flex gap-4">
-            <span className="bannerIcon">
+            <a
+              href="https://www.facebook.com/santosh.gajurel.71"
+              className="bannerIcon"
+            >
               <FaFacebookF />
-            </span>
-            <span className="bannerIcon">
+            </a>
+            <a href="https://twitter.com/Santoosh_G" className="bannerIcon">
               <FaTwitter />
-            </span>
-            <span className="bannerIcon">
+            </a>
+            <a
+              href="https://www.linkedin.com/in/santosh-gajurel-06a557200/"
+              className="bannerIcon"
+            >
               <FaLinkedinIn />
-            </span>
+            </a>
           </div>
         </div>
         <div>
