@@ -20,7 +20,6 @@ function App() {
           <Features />
           <Project />
           <Contact />
-
           <FooterBtn />
         </div>
       </div>

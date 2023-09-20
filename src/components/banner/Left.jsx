@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact } from 'react-icons/fa';
+import { FaReact } from 'react-icons/fa';
 import { SiTailwindcss, SiFigma, SiNextdotjs } from 'react-icons/si';
 
 const Left = () => {
@@ -11,6 +11,16 @@ const Left = () => {
     deleteSpeed: 10,
     delaySpeed: 2000,
   });
+
+  const downloadPdf = () => {
+    const myCv = document.createElement('a');
+    myCv.href = '../../../public/Santosh Gajurel.pdf';
+    myCv.download = '../../../public/Santosh Gajurel.pdf';
+    myCv.style.display = 'none';
+    document.body.appendChild(myCv);
+    myCv.click();
+    document.body.removeChild(myCv);
+  };
   return (
     <div className="w-full lgl:w-1/2 flex flex-col gap-20">
       <div className="flex flex-col gap-5">
@@ -36,7 +46,7 @@ const Left = () => {
       {/* Media */}
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
         <div>
-          <h2 className="text-base uppercase font-titleFont mb-4">
+          <h2 className="text-lg uppercase font-titleFont mb-4">
             BEST SKILL ON
           </h2>
           <div className="flex gap-4">
@@ -55,9 +65,16 @@ const Left = () => {
           </div>
         </div>
         <div>
-          <h2 className="text-base uppercase font-titleFont mb-4">
+          <h2 className="text-lg uppercase font-titleFont mb-4 w-full">
             Download CV
           </h2>
+
+          <button
+            className="bannerIcon w-full p-3  text-sm "
+            onClick={downloadPdf}
+          >
+            Click to Download
+          </button>
         </div>
       </div>
     </div>
