@@ -6,7 +6,7 @@ import Features from './components/feature/Features';
 import About from './components/about/About';
 import Project from './components/project/Project';
 import Contact from './components/contact/Contact';
-import Footer from './components/footer/Footer';
+
 import FooterBtn from './components/footer/FooterBtn';
 
 function App() {
@@ -20,8 +20,6 @@ function App() {
           <Features />
           <Project />
           <Contact />
-
-          {/* <Footer /> */}
 
           <FooterBtn />
         </div>
