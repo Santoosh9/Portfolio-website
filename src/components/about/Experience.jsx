@@ -15,6 +15,16 @@ const Experience = () => {
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <AboutCard
+            title="Web Developer"
+            subTitle=" Softechpark (October 5 3023 – March 15 2024)"
+            result="Kathmandu Jamal"
+            des="Work with senior developer to manage large, complex design projects for corporate clients and real clients. 
+Developed responsive websites using HTML, CSS, and JavaScript, ensuring cross-browser compatibility and 
+optimal performance. 
+Stayed up-to-date with emerging web development technologies and best practices through self-learning and 
+professional development resources. "
+          />
+          <AboutCard
             title=" Junior React Associative"
             subTitle=" Softechpark (December 17 2022 – March 10 2023)"
             result="Kathmandu Tinkuney"

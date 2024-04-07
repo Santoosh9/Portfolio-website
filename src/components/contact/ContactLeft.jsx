@@ -26,7 +26,7 @@ const ContactLeft = () => {
         </p>
       </div>
       <div className="flex flex-col gap-4">
-        <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
+        <h2 className="text-base uppercase font-titleFont mb-4 ">Find me in</h2>
         <div className="flex gap-4">
           <a
             href="https://www.facebook.com/santosh.gajurel.71"
